@@ -1,5 +1,5 @@
 * {
-    font-family: ;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -41,7 +41,6 @@ body {
 .header-2 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 40px;
 }
 
@@ -51,10 +50,20 @@ body {
     flex: 1;
 }
 
+.subtitle {
+    margin-top: 0;
+}
+
 button.hero-button {
-    display: flex;
+    width: 150px;
     padding:10px 20px;
     background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
 }
 
 .header-image {
@@ -67,6 +76,7 @@ h1.title {
     font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 
 .header,
